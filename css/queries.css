@@ -138,14 +138,8 @@ font-size in media queries, 1rem = 1em =16px, in queries use em*/
     background-color: rgba(255, 255, 255, 0.5);
     transform: translateX(100%);
     transition: all 0.5s ease-in;
-    /*allows No transitions at all */
-    /* display: none; */
-
-    /* 1) hide it visually */
     opacity: 0;
-    /* 2) make it unaccessible to mouse and keyboardy */
     pointer-events: none;
-    /* 3) hide it from screenreaders */
     visibility: hidden;
   }
 
